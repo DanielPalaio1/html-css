@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        /* SELETORES PERSONALIZADOS
+        
+            #  = id
+            .  = class
+            :  = pseudo-class
+            :: = pseudo-element
+            >  = children
+        */
+
+        body{
+            font-style: sans-serif;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: brown;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: black;
+        }
+        
+        a:active {
+            color: darkblue;
+        }
+
+        .especial {
+            background-color: rgb(219, 149, 149);
+        }
+
+        .especial::before{
+            content: ' →';
+        }
+
+        .especial::after {
+            content: ' ←';
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizar links</h1>
+    <ul>
+        <li><a href="https://github.com/DanielPalaio1" target="_blank">Repositorio do GitHub</a></li>
+        <li><a href="https://www.youtube.com/@darkaze4174" target="_blank" class='especial'>Canal do Youtube</a></li>
+        <li><a href="https://www.instagram.com/danielpalaio/" target="_blank" class="especial">Perfil do Instagram</a></li>
+    </ul>
+</body>
+</html>

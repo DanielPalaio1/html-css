@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <link rel="shortcut icon" href="imagens/noticias.png" type="image/x-icon">
+    <style>
+        body {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            background-color: #0D0D0D;
+        }
+        
+        header{
+            background-color: #2E3C8C;
+            color: #DFE5F2;
+            
+        }
+
+
+        nav{
+            background-color: #4E63D9;
+            padding: 3px;
+            box-shadow: 1px 1px 1px black;
+            
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: #DFE5F2;
+            font-weight: lighter;
+            margin-right: 50px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        main{
+            background-color: #2E3C8C;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 1px white;
+        }
+
+        footer{
+            background-color: #1D2659;
+            color: #DFE5F2;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+
+        article{
+            background-color: #4E63D9;
+            padding: 5px;
+            color: #DFE5F2;
+        }
+
+        article > aside {
+            background-color: #1D2659;
+            color: #DFE5F2;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        
+        div#bola{
+            height: 100px;
+            width: 100px;
+            background-color: #2E3C8C;
+            margin: 10px;
+            border-radius: 50px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Palaio</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre Portugal</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus soluta ad amet officiis consequatur distinctio totam assumenda fugiat harum, maxime inventore illum odit quibusdam placeat quam non tempora. Esse, magnam.</p>
+                <aside>
+                    <p>Artigo escrito por Daniel Palaio</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por PALAIO</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
